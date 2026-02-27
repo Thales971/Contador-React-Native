@@ -58,13 +58,22 @@ const styles = StyleSheet.create({
   },
   linhaDeBotoes: {
     flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
     gap: 20,
+    marginTop: 20,
   },
   botao: {
-    padding: 10,
-    borderRadius: 5,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 8,
     minWidth: 60,
     alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 4,
   },
   botaoDiminuir: {
     backgroundColor: '#ff3333',
@@ -73,7 +82,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#33cc33',
   },
   botaoReset: {
-    backgroundColor: '#555555',
+    backgroundColor: '#888888',
   },
   botaoTexto: {
     color: '#fff',
